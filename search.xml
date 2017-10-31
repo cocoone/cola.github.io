@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[hexo+github Pages搭建个人博客]]></title>
+      <url>/cola.github.io/2017/10/31/hexo-github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<h1 id="hexo-github-Pages"><a href="#hexo-github-Pages" class="headerlink" title="hexo+github Pages"></a>hexo+github Pages</h1><a id="more"></a>
+<p>安装nodejs</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[node]]></title>
+      <url>/cola.github.io/2017/10/29/node/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[javascript]]></title>
+      <url>/cola.github.io/2017/10/29/javascript/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[webpack]]></title>
+      <url>/cola.github.io/2017/10/29/webpack/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[test]]></title>
+      <url>/cola.github.io/2017/10/29/test/</url>
+      <content type="html"><![CDATA[<h1 id="通天武尊"><a href="#通天武尊" class="headerlink" title="通天武尊"></a>通天武尊</h1><p>“华宛如，你今日的成就，今日的一切。笔《趣》阁wｗw.ｂｉquｇｅ.ｉｎｆｏ都是我杨辰给你的，是我杨辰救了你，培养你。你能成为一代天之骄女，受人敬仰受人爱戴，全都是我杨辰给的你。我杨辰自问待你不薄，没有想到，你今天竟然要背叛我！”<br><a id="more"></a></p>
+<pre><code>### 无序列表
+* 1
+* 2
+* 3 
+* 4
+## 有序列表
+1 1
+2 2
+3 3
+4 4
+&gt; 这是引用
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[es6]]></title>
+      <url>/cola.github.io/2017/10/29/es6/</url>
+      <content type="html"></content>
+      
+        
+        <tags>
+            
+            <tag> es6 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[css3]]></title>
+      <url>/cola.github.io/2017/10/29/css3/</url>
+      <content type="html"></content>
+      
+        
+        <tags>
+            
+            <tag> css3 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[html5]]></title>
+      <url>/cola.github.io/2017/10/29/html5/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[box-sizing]]></title>
+      <url>/cola.github.io/2017/10/29/box-sizing/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> Testing </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello everyone]]></title>
+      <url>/cola.github.io/2017/10/29/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to my blog(<a href="https://cocoone.github.io/cola.github.io/)!">https://cocoone.github.io/cola.github.io/)!</a></p>
+<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><a id="more"></a>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
