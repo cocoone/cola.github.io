@@ -5,13 +5,12 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
-
 
 
 
@@ -45,6 +44,50 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -68,7 +111,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="cola,blog,web,前端" />
 
 
 
@@ -97,7 +140,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/cola.github.io/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.3',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -111,7 +154,7 @@
       applicationID: '',
       apiKey: 'apiKey',
       indexName: 'colablog',
-      hits: {"per_page":10},
+      hits: {"per_page":8},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
@@ -132,6 +175,16 @@
 
 
 
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?287dc89e72f3caeb36a78ffd53ab3274";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
 
 
 
@@ -148,7 +201,28 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
+      <div class="header-inner"><div id="tstart-toolbar-top-jory">
+  <div id="tstart-toolbar-top-jory-right" class="tstart-right">
+  
+     <form class="site-search-form" >
+          <input type="text" id="search-input">
+          <div id="search-result">
+          <ul class="search-result-list">
+        
+          <li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+         </div>
+       </form>
+      <div class="popup">
+      <input type="text" id="local-search-input">
+      <div id="local-search-result"></div>
+      <span class="popup-btn-close">close</span>
+      </div>
+      
+  </div>       
+</div>
+
+
+<div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
@@ -190,12 +264,62 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/cola.github.io/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/cola.github.io/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/cola.github.io/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/cola.github.io/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/cola.github.io/search/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-msgboard">
+          <a href="/cola.github.io/msgboard/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            留言
           </a>
         </li>
       
@@ -237,7 +361,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="cola">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/cola.github.io/images/avatar.gif">
+      <meta itemprop="image" content="/cola.github.io/images/authorhd1.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -313,6 +437,24 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    cola
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cocoone.github.io/cola.github.io/2017/10/31/hexo-github-Pages搭建个人博客/" title="hexo+github Pages搭建个人博客">https://cocoone.github.io/cola.github.io/2017/10/31/hexo-github-Pages搭建个人博客/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -363,6 +505,16 @@
           
 
   
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
 
 
 
@@ -398,6 +550,10 @@
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/cola.github.io/images/authorhd1.jpg"
+                alt="cola" />
             
               <p class="site-author-name" itemprop="name">cola</p>
               <p class="site-description motion-element" itemprop="description">技术分享</p>
@@ -444,12 +600,46 @@
 
           <div class="links-of-author motion-element">
             
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/cocoone/cola.github.io.git" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:15729083997@163.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://weibo.com/u/5781180646/home?wvr=5" target="_blank" title="微博">
+                    
+                      <i class="fa fa-fw fa-weibo"></i>微博</a>
+                </span>
+              
+            
           </div>
 
           
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://baidu.com/" title="baidu" target="_blank">baidu</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -505,7 +695,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.3</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
 
 
 
@@ -564,7 +754,7 @@
 
   
   
-    <script type="text/javascript" src="/cola.github.io/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   
 
   
@@ -605,6 +795,13 @@
   
   
 
+
+  <script type="text/javascript" src="/cola.github.io/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/cola.github.io/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
   
   <script type="text/javascript" src="/cola.github.io/js/src/scrollspy.js?v=5.1.3"></script>
 <script type="text/javascript" src="/cola.github.io/js/src/post-details.js?v=5.1.3"></script>
@@ -620,6 +817,24 @@
 
   
 
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://cocoone.github.io/cola.github.io/2017/10/31/hexo-github-Pages搭建个人博客/';
+          this.page.identifier = '2017/10/31/hexo-github-Pages搭建个人博客/';
+          this.page.title = 'hexo+github Pages搭建个人博客';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
 
   
 
@@ -651,7 +866,55 @@
 
 
 
-  
+  <form class="site-search-form" >
+  <input type="text" id="search-input">
+  <div id="search-result">
+  <ul class="search-result-list">
+  <li>
+  <a href="//www.baidu.com/s?wd=XXX%20site%3Ahttps://cocoone.github.io/cola.github.io" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a>
+  </li>
+  <li>
+  <a href="//www.google.com/search?q=XXX%20site%3Ahttps://cocoone.github.io/cola.github.io" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a>
+  </li>
+  <li>
+  <a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
+</form>
+  <div class="popup">
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+  </div>
+
+
+form class="site-search-form" >
+  <input type="text" id="search-input">
+  <div id="search-result">
+  <ul class="search-result-list">
+  <li>
+  <a href="//www.baidu.com/s?wd=XXX%20site%3Ahttps://cocoone.github.io/cola.github.io" class="search-result">百度搜索
+   <i class="search-keyword">XXX</i>
+   </a>
+   </li>
+   <li>
+   <a href="//www.google.com/search?q=XXX%20site%3Ahttps://cocoone.github.io/cola.github.io" class="search-result">谷歌搜索 
+   <i class="search-keyword">XXX</i>
+   </a>
+   </li>
+   <li>
+   <a href="#" class="popup-trigger search-result">本地搜索</a>
+   </li>
+   </ul>
+  </div>
+</form>
+  <div class="popup">
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+  </div>
+
+
+
 
 
 
