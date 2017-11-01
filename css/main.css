@@ -1830,7 +1830,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2ae8ff;
+  background: #61ff3e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2240,24 +2240,6 @@ pre .javascript .function {
 }
 .bdsharebuttonbox a {
   border: none;
-}
-#tstart-toolbar-top-jory {
-  top: 0;
-/*最上*/
-  color: #3e3e3e;
-  right: -30px;
-  position: fixed;
-  text-align: left;
-  width: 100%;
-  z-index: 10000;
-  overflow: visible;
-}
-#tstart-toolbar-top-jory .tstart-right {
-  float: right; /*在右*/
-  margin: 10px 30px 5px 5px;
-  padding: 10px;
-  -moz-box-shadow: 0px 0px 5px #000;
-  -webkit-box-shadow: 0px 0px 5px #000;
 }
 .local-search-pop-overlay {
   position: fixed;
